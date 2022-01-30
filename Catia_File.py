@@ -4,9 +4,9 @@ import string, os
 
 import main
 
-
-
 print(main.data)
+
+print(main.Main_Frame.Change_Parameter_In_Catia)
 
 
 

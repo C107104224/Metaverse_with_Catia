@@ -1,3 +1,9 @@
+Length = 0
+Width = 0
+Height = 0
+Shelf_Plane = 0
+
+
 Path_Name1 = (
     ("desk"),
     ("3D_printing_machine"),
@@ -25,6 +31,4 @@ Path_Name = {
     "cabinet": ["cabinet_1", "cabinet_2"],
     "part": ["rectangle"],
     "shelf": ["shelf_1", "shelf_2", "shelf_3", "shelf_4"]
-
-
 }

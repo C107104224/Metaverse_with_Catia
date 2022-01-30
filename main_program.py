@@ -55,6 +55,7 @@ def Param_change(target, value):
     parameter = part.Parameters
     # 按照介面輸入的參數找出相對應的面建出板子
     length = parameter.Item(target)
+    realParam = parameter.Item(target)
     if target == "Length":
         length.Value = value
     elif target == "Width":
@@ -63,6 +64,10 @@ def Param_change(target, value):
         length.Value = value
     elif target == "r":
         length.Value = value
+
+    if target == "Shelf_Plane":
+        realParam.Value = value
+
     # elif target == "Height":
     #     length.Value = value
     part.Update()
